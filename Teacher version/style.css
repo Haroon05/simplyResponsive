@@ -5,18 +5,11 @@
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-nav{
-    width: 98%;
-    background-color: gray;
-    padding: 10px;
-    margin: 1% auto;
-    font-size: 150%;
-}
 header{
     width: 98%;
     padding: 10px;
     font-size: 150%;
-    /* background-color: gray; */
+    background-color: gray;
     margin: 1% auto;
 }
 main{
@@ -37,18 +30,7 @@ span{
 }
 #tablet, #desktop{
     display: none;
-    /* padding: 10px;
-    background-color: lightgoldenrodyellow;
-    width: 98%;
-    margin: 1% auto; */
 }
-/* #phone{
-    display: none;
-    padding: 10px;
-    background-color: rgb(255, 224, 145);
-    width: 98%;
-    margin: 1% auto;
-} */
 @media only screen and (min-width: 481px){
     main{
         font-size: 150%;
@@ -61,10 +43,10 @@ span{
     }
 }
 @media only screen and (min-width: 1024px){
-    #phone{
+    #tablet{
         display: none;
     }
-    #tablet{
+    #desktop{
         display: block;
     }
 }
